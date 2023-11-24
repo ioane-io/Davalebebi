@@ -19,7 +19,7 @@
             var fullName = "Hello, my Full name is:" + firstName + " " + lastName;
             Console.WriteLine(fullName);
 
-            var about = $"my age: {age}, my gender is: {gender} ";
+            var about = $"my age: {age}, my gender is: {gender} "; 
             Console.WriteLine(about);
         }
     }
