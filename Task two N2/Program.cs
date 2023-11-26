@@ -9,25 +9,25 @@
             Console.WriteLine("Second Number: ");
             var secondNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Symbol ( +, -, *, / : ");
-            var operation = Console.ReadLine();
+            var operation = Convert.ToChar(Console.ReadLine());
             var sum = firstNumber + secondNumber;
             var subtraction = firstNumber - secondNumber;
             var multiply = firstNumber * secondNumber;
             var division = firstNumber / secondNumber;
 
-            if (operation == "+")
+            if (operation == '+')
             {
                 Console.WriteLine(sum);
             }
-            else if (operation == "-")
+            else if (operation == '-')
             {
                 Console.WriteLine(subtraction);
             }
-            else if (operation == "*")
+            else if (operation == '*')
             {
                 Console.WriteLine(multiply);
             }
-            else if (operation == "/")
+            else if (operation == '/')
             {
                 Console.WriteLine(division);
             }
@@ -38,16 +38,16 @@
 
             switch (operation)
             {
-                case "+":
+                case '+':
                     Console.WriteLine(sum);
                     break;
-                case "-":
+                case '-':
                     Console.WriteLine(subtraction);
                     break;
-                case "*":
+                case '*':
                     Console.WriteLine(multiply);
                     break;
-                case "/":
+                case '/':
                     Console.WriteLine(division);
                     break;
                 default: Console.WriteLine("operator is wrong");
