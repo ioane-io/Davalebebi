@@ -5,15 +5,15 @@
         static void Main(string[] args)
         {
             Console.WriteLine("First Number: ");
-            var a = Convert.ToDouble(Console.ReadLine());
+            var firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Second Number: ");
-            var b = Convert.ToDouble(Console.ReadLine());
+            var secondNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Symbol ( +, -, *, / : ");
             var operation = Console.ReadLine();
-            var sum = a + b; 
-            var subtraction = a - b;
-            var multiply = a * b; 
-            var division = a / b; 
+            var sum = firstNumber + secondNumber;
+            var subtraction = firstNumber - secondNumber;
+            var multiply = firstNumber * secondNumber;
+            var division = firstNumber / secondNumber;
 
             if (operation == "+")
             {
@@ -38,7 +38,7 @@
 
             switch (operation)
             {
-                case "+":               
+                case "+":
                     Console.WriteLine(sum);
                     break;
                 case "-":
@@ -49,6 +49,8 @@
                     break;
                 case "/":
                     Console.WriteLine(division);
+                    break;
+                default: Console.WriteLine("operator is wrong");
                     break;
             }
         }
