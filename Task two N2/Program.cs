@@ -4,66 +4,53 @@
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Pirveli Ricxvi: ");
+            Console.WriteLine("First Number: ");
             var a = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Meore Ricxvi: ");
-            var b = Convert.ToDouble (Console.ReadLine());
-
-            Console.WriteLine("Moqmedeba ( +, -, *, / : ");
-            var symbol = Console.ReadLine();
-
-            
+            Console.WriteLine("Second Number: ");
+            var b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Symbol ( +, -, *, / : ");
+            var operation = Console.ReadLine();
             var sum = a + b; 
             var subtraction = a - b;
-            var mult = a * b; 
-            var div = a / b;
+            var multiply = a * b; 
+            var division = a / b;
 
-            if (symbol == "+")
+            if (operation == "+")
             {
                 Console.WriteLine(sum);
             }
-            else if (symbol == "-")
+            else if (operation == "-")
             {
                 Console.WriteLine(subtraction);
             }
-            else if (symbol == "*")
+            else if (operation == "*")
             {
-                Console.WriteLine(mult);
+                Console.WriteLine(multiply);
             }
-            else if (symbol == "/")
+            else if (operation == "/")
             {
-                Console.WriteLine(div);
+                Console.WriteLine(division);
             }
             else
             {
                 Console.WriteLine("Please enter the correct operator");
             }
 
-
-
-            switch (symbol)
+            switch (operation)
             {
                 case "+":               
                     Console.WriteLine(sum);
                     break;
-
                 case "-":
                     Console.WriteLine(subtraction);
                     break;
-
                 case "*":
-                    Console.WriteLine(mult);
+                    Console.WriteLine(multiply);
                     break;
-
                 case "/":
-                    Console.WriteLine(div);
+                    Console.WriteLine(division);
                     break;
             }
-
-           
-
         }
     }
 }
