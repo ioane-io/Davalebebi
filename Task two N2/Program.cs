@@ -13,7 +13,7 @@
             var sum = a + b; 
             var subtraction = a - b;
             var multiply = a * b; 
-            var division = a / b;
+            var division = a / b; 
 
             if (operation == "+")
             {
