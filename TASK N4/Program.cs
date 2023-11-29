@@ -33,8 +33,8 @@
             {
                 if (numbers[i] % 3 == 0)
                 {
+                    Console.WriteLine("divisibleByThree:" + numbers[i]);
                 }
-                Console.WriteLine("divisibleByThree:" + numbers[i]);
             }
         }
     }
