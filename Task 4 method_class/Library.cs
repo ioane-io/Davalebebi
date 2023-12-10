@@ -27,7 +27,7 @@ namespace Task_4_method_class
             {
                 book.DisplayBookInfo();
             }
-        }
+        } 
 
 
 
