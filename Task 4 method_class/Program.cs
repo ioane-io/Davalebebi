@@ -14,7 +14,7 @@
             Console.WriteLine("Information about the Books:");
             book1.DisplayBookInfo();
             book2.DisplayBookInfo();
-            book3.DisplayBookInfo();
+            book3.DisplayBookInfo(); 
             book4.DisplayBookInfo();
             book5.DisplayBookInfo();
 
