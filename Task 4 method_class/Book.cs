@@ -21,7 +21,7 @@ namespace Task_4_method_class
         }
         public void DisplayBookInfo()
         {
-            Console.WriteLine($"Title: {Title}, Author: {Author}, Year: {Year}, Available Copies: {AvailableCopies}");
+            Console.WriteLine($"Title: {Title}, Author: {Author}, Year: {Year}");
         }
     }
 }
