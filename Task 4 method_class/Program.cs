@@ -17,6 +17,4 @@ namespace Task_4_method_class
             library.PrintBooks(); 
         }
     } 
-}
-
-        
+}    

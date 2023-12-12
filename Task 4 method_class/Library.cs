@@ -11,28 +11,30 @@ namespace Task_4_method_class
         public List<Book> Books = new List<Book>()
         {
               new Book()
-                {
+              {
                     Title = "red book",
                     Author = "nina",
                     AvailableOfCopy = 5,
-                },
-                new Book()
-                {
+              },
+              new Book()
+              {
                     Title = "black book",
                     Author = "ernesto",
                     AvailableOfCopy = 5,
-                },
-               new Book()
-               {
+              },
+              new Book()
+              {
                     Title = "gray book",
                     Author = "alfredo",
                     AvailableOfCopy = 5,
-               }
+              }
         };
+
         public void AddBook(Book book)
         {
             Books.Add(book);
         }
+
         public void PrintBooks()
         {
             foreach (var book in Books)
@@ -40,7 +42,5 @@ namespace Task_4_method_class
                 Console.WriteLine($"Book Title: {book.Title}; Author: {book.Author}; Amount Of Copy: {book.AvailableOfCopy}");
             }
         }
-    }       
+    }
 }
-
-
