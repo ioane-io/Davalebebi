@@ -8,25 +8,39 @@ namespace Task_4_method_class
 {
     public class Library
     {
-        private List<Book> books;
-
-        public Library()
+        public List<Book> Books = new List<Book>()
         {
-            books = new List<Book>();
+              new Book()
+                {
+                    Title = "red book",
+                    Author = "nina",
+                    AvailableOfCopy = 5,
+                },
+                new Book()
+                {
+                    Title = "black book",
+                    Author = "ernesto",
+                    AvailableOfCopy = 5,
+                },
+               new Book()
+               {
+                    Title = "gray book",
+                    Author = "alfredo",
+                    AvailableOfCopy = 5,
+               }
+        };
+        public void AddBook(Book book)
+        {
+            Books.Add(book);
         }
-        public void AddBook(string title, string author, int year)
+        public void PrintBooks()
         {
-            Book newBook = new Book(title, author, year);
-            books.Add(newBook);
-            Console.WriteLine("Book added to the library.");
-        }
-        public void DisplayAllBooks()
-        {
-            Console.WriteLine("Library Books:");
-            foreach (var book in books)
+            foreach (var book in Books)
             {
-                book.DisplayBookInfo();
+                Console.WriteLine($"Book Title: {book.Title}; Author: {book.Author}; Amount Of Copy: {book.AvailableOfCopy}");
             }
         }
-    }
+    }       
 }
+
+
