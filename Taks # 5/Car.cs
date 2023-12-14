@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 
 namespace Taks___5
 {
-
-
     public class Car : Vehicle, IStartable
     {
         public int NumberOfDoors { get; set; }
@@ -25,7 +23,6 @@ namespace Taks___5
             Console.WriteLine($"Number of Doors: {NumberOfDoors}");
             Console.WriteLine($"Trunk Capacity: {TrunkCapacity}");
         }
-
         public void Start()
         {
             Console.WriteLine($"Starting Car");

@@ -13,7 +13,6 @@
                 NumberOfDoors = 4,
                 TrunkCapacity = 10
             };
-
             Motorcycle myMotorcycle = new Motorcycle
             {
                 Make = "ford",
@@ -23,7 +22,6 @@
                 HasSideCar = false,
                 Type = "sport"
             };
-
             Garage myGarage = new Garage();
             myGarage.AddVehicle(myCar);
             myGarage.AddVehicle(myMotorcycle);
@@ -33,7 +31,6 @@
             decimal totalPrice = myGarage.CalculateTotalPrice();
             Console.WriteLine($"Total Price for all vehicles:  {totalPrice}");
             Console.WriteLine();
-
             foreach (var vehicle in myGarage.vehicles)
             {
                 if (vehicle is IStartable startableVehicle)
