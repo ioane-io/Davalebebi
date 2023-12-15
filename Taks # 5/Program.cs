@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Car myCar = new Car
+            Car myCar = new Car 
             {
                 Make = "Honda",
                 Model = "Fit Hybrid",

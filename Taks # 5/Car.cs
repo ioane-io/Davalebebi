@@ -29,5 +29,3 @@ namespace Taks___5
         }
     }
 }
-
-
