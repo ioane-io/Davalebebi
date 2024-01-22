@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TASK N3", "TASK N4\TASK N3.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 4 method_class", "Task 4 method_class\Task 4 method_class.csproj", "{DF283CCC-86C2-4163-8595-60D4960AD3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taks # 5", "Taks # 5\Taks # 5.csproj", "{38F3CA84-40F7-48F4-AB64-B76179C93607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taks # 5", "Taks # 5\Taks # 5.csproj", "{38F3CA84-40F7-48F4-AB64-B76179C93607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 6", "Task 6\Task 6.csproj", "{5CC14E07-47DC-47FB-BCE0-FD6FA153442F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 6", "Task 6\Task 6.csproj", "{5CC14E07-47DC-47FB-BCE0-FD6FA153442F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 7 davaleba 7", "Task 7 davaleba 7\Task 7 davaleba 7.csproj", "{20D06615-04EF-4A3B-B10B-AD6D77D4B873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5CC14E07-47DC-47FB-BCE0-FD6FA153442F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC14E07-47DC-47FB-BCE0-FD6FA153442F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC14E07-47DC-47FB-BCE0-FD6FA153442F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D06615-04EF-4A3B-B10B-AD6D77D4B873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D06615-04EF-4A3B-B10B-AD6D77D4B873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D06615-04EF-4A3B-B10B-AD6D77D4B873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D06615-04EF-4A3B-B10B-AD6D77D4B873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
